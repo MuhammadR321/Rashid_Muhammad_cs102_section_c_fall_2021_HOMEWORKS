@@ -1,5 +1,6 @@
 # README.md for hw-2 / problem 1
 
+# ALGORITHM
 	START
 	  Step 1 - Use "double" to declare dimension variables as any real input values
 	  Step 2 - Ask user to input dimension values

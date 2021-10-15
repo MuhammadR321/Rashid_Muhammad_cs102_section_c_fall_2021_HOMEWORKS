@@ -1,5 +1,6 @@
 # README.md for hw-1 / problem-4
 
+# ALGORITHM
 	START
 	  STEP - 1 Get input of cents from user via STDIN
 	  STEP - 2 Use formula to calculate quarters (divide cents by 25)

@@ -1,5 +1,6 @@
-# README.md for hw-1 / problem-1
+# README.md for hw-1 / problem-2
 
+# ALGORITHM
 	START
 	  STEP 1 - Take integer values from user
 	  STEP 2 - For Hours divide input by 60
