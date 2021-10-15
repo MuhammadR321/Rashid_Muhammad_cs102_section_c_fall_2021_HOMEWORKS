@@ -26,8 +26,13 @@
         	scanf("%d", &minutes);
         	hour = minutes/60;
         	minutes = minutes % 60;
-
-        	printf("Converted Minutes = %d hour %d minutes\n", hour, minutes);
+		
+		if(hour <= 1) {
+        			printf("Converted Minutes = %d hour %d minutes\n", hour, minutes);
+		}
+		else if(hour > 1) {
+			 printf("Converted Minutes = %d hour %d minutes\n", hour, minutes);
+		}
 
         	return(SUCCESS);
 }
