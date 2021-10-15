@@ -1,5 +1,23 @@
 #include <stdio.h>
+#define SUCCESS 0
+#define MAX (cents % 25)
 
 int main(void) {
-	printf("Hello, World!\n");
+	int cents;
+	int quarters;
+	int dimes;
+	int nickles;
+	int pennies;
+
+	printf("Enter cents to be converted = ");
+	
+	scanf("%d", &cents);
+	quarters = cents / 25;
+	dimes = MAX/ 10;
+	nickles = (MAX % 10) / 5;
+	pennies = ((MAX % 10) % 5);
+
+	printf("Converted amount =\n %d quarters\n %d dimes\n %d nickles\n %d pennies\n", quarters, dimes, nickles, pennies);
+
+	return(SUCCESS);
 }
