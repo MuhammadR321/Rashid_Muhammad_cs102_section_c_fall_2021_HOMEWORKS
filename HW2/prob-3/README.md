@@ -1,4 +1,5 @@
 # README.md for hw-1 / problem-3
+Reference to Nicholas Chin
 
 # Algorithm
 	START
