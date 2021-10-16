@@ -17,7 +17,7 @@ int main(void) {
 	nickles = (MAX % 10) / 5;
 	pennies = ((MAX % 10) % 5);
 
-	printf("Converted amount =\n %d quarters\n %d dimes\n %d nickles\n %d pennies\n", quarters, dimes, nickles, pennies);
+	printf("Converted amount :\n quarters = %d\n dimes = %d\n nickles = %d\n pennies = %d\n", quarters, dimes, nickles, pennies);
 
 	return(SUCCESS);
 }
